@@ -10,16 +10,17 @@ public class Class1 : IDisposable
         var s = InsertMembersToSortedList(unsortedInts, sortedList);
         
         new Class2(unsortedInts).Method2();
+        new Class3().Method3();
+        Console.WriteLine(s);
     }
 
-    public string S
-    {
-        get { }
-        set => _s = value;
-    }
 
     public void Dispose()
     {
         // TODO release managed resources here
     }
+}
+
+public class Class3
+{
 }
