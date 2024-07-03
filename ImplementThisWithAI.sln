@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core_App", "Core_App\Core_A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{547817E0-46CE-4B9D-B3DD-E0DB84CE2B44}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor", "Blazor\Blazor.csproj", "{8BD078B8-2BEC-42C9-9922-C50D5544E91B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{547817E0-46CE-4B9D-B3DD-E0DB84CE2B44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{547817E0-46CE-4B9D-B3DD-E0DB84CE2B44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{547817E0-46CE-4B9D-B3DD-E0DB84CE2B44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BD078B8-2BEC-42C9-9922-C50D5544E91B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BD078B8-2BEC-42C9-9922-C50D5544E91B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BD078B8-2BEC-42C9-9922-C50D5544E91B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BD078B8-2BEC-42C9-9922-C50D5544E91B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
