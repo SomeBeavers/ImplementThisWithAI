@@ -10,7 +10,7 @@ public class UseBaseClass
         derivedClass.GetInstance();
 
 
-        derivedClass.CreateIdentifiableNameFromListOfParameters(name, parameterFromDllName, parameterFromNamespaceName,
+        var identifiableNameFromListOfParameters = derivedClass.CreateIdentifiableNameFromListOfParameters(name, parameterFromDllName, parameterFromNamespaceName,
             parameterFromFullyQualifiedNameWithReplacedDots, [1, 2, 3, 4, 5]);
     }
 }
