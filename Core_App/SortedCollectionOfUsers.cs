@@ -2,7 +2,7 @@
 
 public class SortedCollectionOfUsers
 {
-    public object this[
+    public User this[
         int index]
     {
         get { throw new NotImplementedException(); }
