@@ -18,15 +18,9 @@ public class Class1 : IDisposable
         Console.WriteLine(s);
     }
 
-    private void A(string message)
-    {
-        throw new NotImplementedException();
-    }
-
-
-    public void Dispose()
-    {
-        // TODO release managed resources here
+    private void A(
+        string message) {
+        Dispose();
     }
 }
 
