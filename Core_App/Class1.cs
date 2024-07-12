@@ -26,4 +26,18 @@ public class Class1 : IDisposable
 
 public class Class3
 {
+    /// <summary>
+    /// 
+    /// </summary>
+	public void Test() { /*Test2();*/}
+    
+	private void Test2()
+	{
+		throw new NotImplementedException();
+	}
+
+	public void TT()
+	{
+		TODO;
+	}
 }

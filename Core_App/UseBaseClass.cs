@@ -2,6 +2,11 @@
 
 public class UseBaseClass
 {
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="baseClass"></param>
+    /// <param name="name"></param>
     public void Test(BaseClass baseClass, string name)
     {
         var instance = baseClass.GetInstance();
@@ -12,5 +17,10 @@ public class UseBaseClass
 
         var identifiableNameFromListOfParameters = derivedClass.CreateIdentifiableNameFromListOfParameters(name, parameterFromDllName, parameterFromNamespaceName,
             parameterFromFullyQualifiedNameWithReplacedDots, [1, 2, 3, 4, 5]);
+    }
+
+    public void Test2()
+    {
+
     }
 }
