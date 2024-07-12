@@ -389,9 +389,5 @@ public record User(string FirstName, string LastName, int Age)
 		out string lastName,
 		out int    age)
 	{
-	  		firstName = this.FirstName;
-		lastName = this.LastName;
-		age = this.Age;
-	
 	}
 }
