@@ -1,3 +1,5 @@
+using System.Collections.ObjectModel;
+
 namespace WinFormsApp1
 {
     public partial class Form1 : Form
@@ -13,6 +15,17 @@ namespace WinFormsApp1
         {
         	Console.WriteLine("Test method has been called.");
         }
+
+        #region Overrides of Form
+
+        /// 
+        protected override void SetVisibleCore(
+	        bool value)
+        {
+
+        }
+
+		#endregion
 	}
     
     
